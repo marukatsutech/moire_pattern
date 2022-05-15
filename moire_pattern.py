@@ -215,7 +215,7 @@ scl_var_angle.set(angle)
 lbl_shift_x = tk.Label(root, text="Offset(x/10)")
 lbl_shift_x.pack(side='left')
 scl_var_shift_x = tk.StringVar(root)
-scl_shift_x = tk.Scale(root, variable=scl_var_shift_x, orient='horizontal', length=200, from_=x_min, to=x_max,
+scl_shift_x = tk.Scale(root, variable=scl_var_shift_x, orient='horizontal', length=200, from_=-10, to=10,
                        command=slider_offset_x_changed)
 scl_shift_x.pack(side='left')
 scl_var_shift_x.set(offset_x)
@@ -223,7 +223,7 @@ scl_var_shift_x.set(offset_x)
 lbl_shift_y = tk.Label(root, text="Offset(y/10)")
 lbl_shift_y.pack(side='left')
 scl_var_shift_y = tk.StringVar(root)
-scl_shift_y = tk.Scale(root, variable=scl_var_shift_y, orient='horizontal', length=200, from_=y_min, to=y_max,
+scl_shift_y = tk.Scale(root, variable=scl_var_shift_y, orient='horizontal', length=200, from_=-10, to=10,
                        command=slider_offset_y_changed)
 scl_shift_y.pack(side='left')
 scl_var_shift_x.set(offset_y)
