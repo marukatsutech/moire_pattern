@@ -184,7 +184,7 @@ rdb1_pattern = tk.Radiobutton(frm_pattern, text="Dots(Square lattice)", command=
                               variable=var_pattern, value=1)
 rdb2_pattern = tk.Radiobutton(frm_pattern, text="Dots(hexagonal lattice)", command=change_pattern,
                               variable=var_pattern, value=2)
-rdb3_pattern = tk.Radiobutton(frm_pattern, text="Concentric circles", command=change_pattern,
+rdb3_pattern = tk.Radiobutton(frm_pattern, text="2 concentric circles", command=change_pattern,
                               variable=var_pattern, value=3)
 rdb4_pattern = tk.Radiobutton(frm_pattern, text="Circles and lines", command=change_pattern,
                               variable=var_pattern, value=4)
